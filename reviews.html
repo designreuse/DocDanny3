@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Dr. Danny Benmoshe</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico" /> 
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/flexslider.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="main.js" defer></script>
+</head>
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="wrapper-div">
+
+      <header>
+        <div class="col-xs-6 name-address">
+
+          <h2>Danny Benmoshe, M.D. | Neurologist</h2>
+          <h4>2001 Santa Monica Blvd, Suite 880 West,</h4>
+          <h4>Santa Monica, CA 90404</h4>
+
+        </div>
+
+        <div class="col-xs-6 appointment text-right">
+
+          <h2>Make an appointment</h2>
+          <h3>(310) 315-1456</h3>
+
+        </div>
+      </header>
+
+      <!-- beggining buttons code -->
+      <div class="btn-group btn-group-justified allButtons" role="group" aria-label="...">
+
+        <div class="btn-group" role="group">
+
+          <a ui-sref="home({reload: true})" ><button type="button" class="home btn btn-info">HOME<span class="glyphicon glyphicon-home"></span></button></a>
+        </div>
+
+        <div class="btn-group" role="group">
+          <button type="button" class="about btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT US <span class="caret"></span></button> 
+          <ul class="dropdown-menu">
+            <li><a ui-sref="danny-benmoshe">DANNY BENMOSHE, M.D.</a></li>
+            <li><a ui-sref="medical-forms">Medical Forms</a></li>
+            <li><a ui-sref="insurance-providers">Insurance Providers</a></li>
+            <li><a ui-sref="disorders-procedures">Disorders/Procedures</a></li>
+          </ul>
+        </div>
+
+        <div class="btn-group" role="group">
+          <button type="button" class="useful-links btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PATIENT INFORMATION <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a ui-sref="useful-links">Useful Links</a></li>
+            <li><a ui-sref="presentations">Presentations</a></li>
+          </ul>
+          
+        </div>
+
+        <div class="btn-group" role="group">
+          <a ui-sref="reviews"><button type="button" class="reviews btn btn-info">REVIEWS</button></a>
+        </div>
+
+        <div class="btn-group" role="group">
+          <a ui-sref="contact-us"><button type="button" class="contact-us btn btn-info">CONTACT US</button></a>
+        </div>
+
+      </div><!-- end of btn-group div -->
+
+      <!-- beginning of carosel code -->
+
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3500">
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/image1.jpg" class="pic" alt="...">
+            <div class="carousel-caption">
+              <h3>Pay Me Money</h3>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/image2.jpg" alt="...">
+            <div class="carousel-caption">
+              <h3>Pay Me Money</h3>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/image3.jpg" alt="...">
+            <div class="carousel-caption">
+              <h3>Pay Me Money</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control"  role="button" data-slide="prev">
+        </a>
+        <a class="right carousel-control"  role="button" data-slide="next">
+        </a>
+      </div> <!-- Carousel -->
+
+      <script>
+        $('.carousel').carousel({
+          interval: 3000
+        })
+      </script>
+      <!-- Does Danny want the links to open on new tab or regular? Also, what does he mean when he wants a section called "leave a review?" -->
+      <div class="container">
+
+        <div class="row"><br>
+
+          <h2 class="text-center">Reviews of Dr. Benmoshe</h2><br>
+          <img src="images/danny-patient.jpg" alt="" class="review-image col-xs-6">
+          <h4 class="col-xs-6"><u>Aug 2nd, 2015</u> - I've been a patient of Dr. Benmoshe's for four years. He's an excellent doctor: very thorough, follows through, and returns phone calls. Just a nice guy overall, as well.<br>
+            <a href="http://www.vitals.com/doctors/Dr_Danny_Benmoshe/reviews">See actual review on Vitals Site</a>
+          </h4>
+
+          <h4 class="col-xs-6"><u>by Lynn on Jan 18th, 2014</u> - This doctor and his nurse, Sarah, went out of their way to go the extra mile for my care and comfort. Willing to think outside the box. I appreciate them very much and yes, I would recommend them.<br>
+            <a href="http://www.vitals.com/doctors/Dr_Danny_Benmoshe/reviews">See actual review on Vitals Site</a>
+          </h4>
+
+          <h4 class="col-xs-6"><u>Mar 5th, 2012</u> - I found Dr. Benmoshe to be a very caring doctor. He takes his time with me, and listens carefully to what I have to say. He is willing to try alternatives, such as dietary supplements, for treatment of my migraines, as well as more conventional medication and treatment. I find him also to he very personable.<br>
+            <a href="http://www.vitals.com/doctors/Dr_Danny_Benmoshe/reviews">See actual review on Vitals Site</a>
+          </h4>
+
+          <h4 class="col-xs-12"><u>August 14, 2015 by Rene R. (Verified Patient)</u> - Can't recommend Dr. Benmoshe enough. He was able to squeeze me in right away and was very patient in answering all my questions and concerns. Was very thorough in going over my symptoms and medical history and not once did I feel like he was in a rush. Overall a great experience.<br>
+            <a href="https://www.zocdoc.com/doctor/danny-benmoshe-md-132541">See actual review on ZocDoc Site</a>
+          </h4>
+
+          <h4 class="col-xs-12"><u>by Joan C.</u> - Very impressed with my care w/ Dr. Benmoshe His concise, professional and caring manner was exceptional. He was the Dr. who actually saved my life. A statement I don't think I have ever said about another Dr. I plan on keeping Dr. Benmoshe as my Dr. from here on!<br>
+            <a href="https://www.zocdoc.com/doctor/danny-benmoshe-md-132541">See actual review on ZocDoc Site</a>
+          </h4>
+
+          <h4 class="col-xs-12"><u>9/24/15, by Chris G.</u> - I found Dr. Benmoshe to be very thorough, precise, and kind when I went to him for my constant migraines. He even few joked around with me the whole visit so I would feel more comfortable. He took all the time that was necessary to understand when and why my migraines occur until he was able to pinpoint the exact problem and fix it. I've already recommended him to all my friends and family members. Thanks doc!<br>
+            <a href="http://www.yelp.com/biz/danny-benmoshe-md-santa-monica?fsid=VL9C5RKYuij2q8xajZ4Org">See actual review on Yelp</a>
+          </h4>
+
+        </div><!-- end of row div -->
+
+      </div><!-- end of container div -->
+      
+    </div><!-- end of wrapper-div -->
+
+
+    <!-- bread crumbs code -->
+    <div class="breadCrumbs text-center">
+
+      <a ui-sref="home" class="col-xs-3">Home</a>
+      <a ui-sref="danny-benmoshe" class="col-xs-3">About Us</a>
+      <a ui-sref="reviews" class="col-xs-3">Reviews</a>
+      <a ui-sref="contact-us" class="col-xs-3">Contact Us</a>
+
+    </div><!-- end of breadCrumbs div -->
+
+  </div><!-- end of row div -->
+
+</div><!-- end of container div -->
+
+
+</body>
+</html>

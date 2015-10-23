@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Dr. Danny Benmoshe</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico" /> 
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/flexslider.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="main.js" defer></script>
+</head>
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="wrapper-div">
+
+      <header>
+        <div class="col-xs-6 name-address">
+
+          <h2>Danny Benmoshe, M.D. | Neurologist</h2>
+          <h4>2001 Santa Monica Blvd, Suite 880 West,</h4>
+          <h4>Santa Monica, CA 90404</h4>
+
+        </div>
+
+        <div class="col-xs-6 appointment text-right">
+
+          <h2>Make an appointment</h2>
+          <h3>(310) 315-1456</h3>
+
+        </div>
+      </header>
+
+      <!-- beggining buttons code -->
+      <div class="btn-group btn-group-justified allButtons" role="group" aria-label="...">
+
+        <div class="btn-group" role="group">
+
+          <a ui-sref="home({reload: true})" ><button type="button" class="home btn btn-info">HOME<span class="glyphicon glyphicon-home"></span></button></a>
+        </div>
+
+        <div class="btn-group" role="group">
+          <button type="button" class="about btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT US <span class="caret"></span></button> 
+          <ul class="dropdown-menu">
+            <li><a ui-sref="danny-benmoshe">DANNY BENMOSHE, M.D.</a></li>
+            <li><a ui-sref="medical-forms">Medical Forms</a></li>
+            <li><a ui-sref="insurance-providers">Insurance Providers</a></li>
+            <li><a ui-sref="disorders-procedures">Disorders/Procedures</a></li>
+          </ul>
+        </div>
+
+        <div class="btn-group" role="group">
+          <button type="button" class="useful-links btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PATIENT INFORMATION <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a ui-sref="useful-links">Useful Links</a></li>
+            <li><a ui-sref="presentations">Presentations</a></li>
+          </ul>
+          
+        </div>
+
+        <div class="btn-group" role="group">
+          <a ui-sref="reviews"><button type="button" class="reviews btn btn-info">REVIEWS</button></a>
+        </div>
+
+        <div class="btn-group" role="group">
+          <a ui-sref="contact-us"><button type="button" class="contact-us btn btn-info">CONTACT US</button></a>
+        </div>
+
+      </div><!-- end of btn-group div -->
+
+      <!-- beginning of carosel code -->
+
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3500">
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/image1.jpg" class="pic" alt="...">
+            <div class="carousel-caption">
+              <h3>Pay Me Money</h3>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/image2.jpg" alt="...">
+            <div class="carousel-caption">
+              <h3>Pay Me Money</h3>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/image3.jpg" alt="...">
+            <div class="carousel-caption">
+              <h3>Pay Me Money</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control"  role="button" data-slide="prev">
+        </a>
+        <a class="right carousel-control"  role="button" data-slide="next">
+        </a>
+      </div> <!-- Carousel -->
+
+      <script>
+        $('.carousel').carousel({
+          interval: 3000
+        })
+      </script>
+
+      <div class="container">
+        <div class="row">
+          <h2 class="text-center"><u><b>ABOUT DR. DANNY BENMOSHE</b></u></h2>
+
+          <div class="dannyStory">
+
+            <h4 class="col-xs-8">
+              Dr. Benmoshe is a board certified Diplomate of the American Academy of Psychiatry and Neurology. He is dedicated to the diagnosis and treatment of all neurological conditions involving both the central and peripheral nervous systems.<br><br>
+              His fellowship training in Neurophysiology enables him to perform specific diagnostic testing including electro-encephalograms (EEGs) and electromyograms/nerve conduction studies (EMG/NCVs) for the diagnosis of seizures and nerve/muscle disorders respectively.<br><br>
+              Dr. Benmoshe also has additional interest and training in the treatment of headaches and movement disorders such as Parkinson’s.  He uses a holistic approach to treatment that includes pharmacotherapy, physical therapy, Botox injections (for migraines) and diet and lifestyle changes.  Furthermore, Dr. Benmoshe’s integrated method focuses on the mind and body connection that is affected in various neurological conditions.<br><br>
+              Dr. Benmoshe’s dedication to the field of neurology began during his time as an undergraduate student at UCLA while taking his neuroscience courses.  It is during this time that his exposure to the study of the brain/mind has made him inspired in pursuing a career as a neurologist.  He is dedicated to his continuing medical education and attends conferences around the country in his field.<br><br> </h4>
+              <img src="images/DannyBenmoshe.jpg" alt="" class="col-xs-4 DannyPic">
+              <h4 class="col-xs-12">
+                Dr. Benmoshe received his training: <br><br>
+
+                <ul>
+
+                  <li><u>Undergraduate Education</u>: UCLA, Bachelors of Science in Neurosciences</li><br>
+                  <li><u>Medical School</u>: Albert Einstein College of Medicine</li><br>
+                  <li><u>Internship</u>: Harbor-UCLA Medical Center Medicine/Surgery department</li><br>
+                  <li><u>Residency</u>: Chief Resident, Harbor-UCLA Medical Center Department of Neurology
+                  </li><br>
+                  <li><u>Fellowship</u>: Neurophysiology, Harbor-UCLA Medical Center Department of Neurology</li>
+
+                </ul><br>
+
+                Volunteer:<br><br>
+                <ul>
+                  <li>Lestonnac Free Clinic Los Alamitos faculty neurologist</li>
+                </ul><br><br>
+
+                In his free time, Dr. Benmoshe enjoys cycling, cardio-fitness, Pilates, yoga and meditation.<br><br>
+
+                <a href="Dr-Benmoshe-CV.pdf" download>For a complete CV click here</a>
+              </h4>
+
+              
+
+              <img src="images/danny-patient.jpg" alt="" class="col-xs-12 dannyPatient img-responsive" alt="Responsive image">
+            </div><!-- end of dannyStory div -->
+
+          </div><!-- end of row div -->
+
+        </div><!-- end of container div -->
+        
+      </div><!-- end of wrapper-div -->
+
+
+      <!-- bread crumbs code -->
+      <div class="breadCrumbs text-center">
+
+        <a ui-sref="home" class="col-xs-3">Home</a>
+        <a ui-sref="danny-benmoshe" class="col-xs-3">About Us</a>
+        <a ui-sref="reviews" class="col-xs-3">Reviews</a>
+        <a ui-sref="contact-us" class="col-xs-3">Contact Us</a>
+
+      </div><!-- end of breadCrumbs div -->
+
+    </div><!-- end of row div -->
+
+  </div><!-- end of container div -->
+
+
+</body>
+</html>

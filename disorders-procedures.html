@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Dr. Danny Benmoshe</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico" /> 
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/flexslider.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="main.js" defer></script>
+</head>
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="wrapper-div">
+
+      <header>
+        <div class="col-xs-6 name-address">
+
+          <h2>Danny Benmoshe, M.D. | Neurologist</h2>
+          <h4>2001 Santa Monica Blvd, Suite 880 West,</h4>
+          <h4>Santa Monica, CA 90404</h4>
+
+        </div>
+
+        <div class="col-xs-6 appointment text-right">
+
+          <h2>Make an appointment</h2>
+          <h3>(310) 315-1456</h3>
+
+        </div>
+      </header>
+
+      <!-- beggining buttons code -->
+      <div class="btn-group btn-group-justified allButtons" role="group" aria-label="...">
+
+        <div class="btn-group" role="group">
+
+          <a ui-sref="home({reload: true})" ><button type="button" class="home btn btn-info">HOME<span class="glyphicon glyphicon-home"></span></button></a>
+        </div>
+
+        <div class="btn-group" role="group">
+          <button type="button" class="about btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT US <span class="caret"></span></button> 
+          <ul class="dropdown-menu">
+            <li><a ui-sref="danny-benmoshe">DANNY BENMOSHE, M.D.</a></li>
+            <li><a ui-sref="medical-forms">Medical Forms</a></li>
+            <li><a ui-sref="insurance-providers">Insurance Providers</a></li>
+            <li><a ui-sref="disorders-procedures">Disorders/Procedures</a></li>
+          </ul>
+        </div>
+
+        <div class="btn-group" role="group">
+          <button type="button" class="useful-links btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PATIENT INFORMATION <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a ui-sref="useful-links">Useful Links</a></li>
+            <li><a ui-sref="presentations">Presentations</a></li>
+          </ul>
+          
+        </div>
+
+        <div class="btn-group" role="group">
+          <a ui-sref="reviews"><button type="button" class="reviews btn btn-info">REVIEWS</button></a>
+        </div>
+
+        <div class="btn-group" role="group">
+          <a ui-sref="contact-us"><button type="button" class="contact-us btn btn-info">CONTACT US</button></a>
+        </div>
+
+      </div><!-- end of btn-group div -->
+
+      <!-- beginning of carosel code -->
+
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3500">
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/image1.jpg" class="pic" alt="...">
+            <div class="carousel-caption">
+              <h3>Pay Me Money</h3>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/image2.jpg" alt="...">
+            <div class="carousel-caption">
+              <h3>Pay Me Money</h3>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/image3.jpg" alt="...">
+            <div class="carousel-caption">
+              <h3>Pay Me Money</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control"  role="button" data-slide="prev">
+        </a>
+        <a class="right carousel-control"  role="button" data-slide="next">
+        </a>
+      </div> <!-- Carousel -->
+
+      <script>
+        $('.carousel').carousel({
+          interval: 3000
+        })
+      </script>
+      <div class="container">
+
+        <div class="row">
+          
+          <h2 class="text-center disorders"><u>Disorders We Treat</u></h2>
+          
+          <div class="disorder-row col-xs-4">
+            <ul>
+              <li>Cognitive Issues</li>
+              <li>Dementia</li>
+              <li>Headaches</li>
+              <li>Migraines</li>
+              <li>Movement Issues</li>
+              <li>Multiple Sclerosis</li>
+              <li>Parkinson's Disease</li>
+              <li>Seizures / Epilepsy</li>
+              <li>Stroke Check-up / Prevention</li>
+              <li>Tingling / Numbness / Weakness</li>
+              <li>Weakness / Palsy</li>
+              <li>ALS</li>
+              <li>Alzheimer's Disease</li>
+            </ul>
+          </div>
+
+          <div class="disorder-row col-xs-4">
+            <ul>
+              <li>Brain / Spinal Cord Tumor</li>
+              <li>Concussion</li>
+              <li>Daytime Sleepiness</li>
+              <li>Dizziness / Vertigo</li>
+              <li>Dystonia</li>
+              <li>Facial Pain</li>
+              <li>Foot Pain</li>
+              <li>Head Injury</li>
+              <li>Herniated Disk</li>
+              <li>Infections of the Brain</li>
+              <li>Movement Disorders / Tremors</li>
+              <li>Muscle Disorders / Myopathy</li>
+            </ul>
+          </div>
+
+          <div class="disorder-row col-xs-4">
+            <ul>
+              <li>Myasthenia Gravis</li>
+              <li>Neck Pain</li>
+              <li>Neuropathic Pain</li>
+              <li>Pain in Extremities</li>
+              <li>Peripheral Neuropathy / Carpal Tunnel</li>
+              <li>Sciatica / Back Pain</li>
+              <li>Sleep Problems</li>
+              <li>Spinal Cord Disorder</li>
+              <li>Stroke / Transient Ischemic Attack</li>
+              <li>Syncope / Fainting</li>
+              <li>Torticollis / Neck Deformation</li>
+              <li>Vertigo - 60 minutes</li>
+            </ul>
+          </div>
+
+          <h2 class="text-center procedures"><u>Procedures We Perform</u></h2>
+
+          <div class="procedure-list">
+
+            <ul>
+              <li class="main-list">EEG</li>
+              <li class="main-list">EMG/NCV</li>
+              <li class="main-list">BOTOX INJECTIONS FOR:
+                <ul>
+                  <li>Migraines</li>
+                  <li>Cervical Dystonia</li>
+                  <li>Blepharospasm</li>
+                  <li>Hemifacial spasm</li>
+                </ul>
+              </li>
+              <li class="main-list">TRIGGER POINT INJECTIONS</li>
+            </ul>
+
+          </div>
+
+
+        </div><!-- end of row div -->
+
+      </div><!-- end of row div -->
+      
+    </div><!-- end of wrapper-div -->
+
+
+    <!-- bread crumbs code -->
+    <div class="breadCrumbs text-center">
+
+      <a ui-sref="home" class="col-xs-3">Home</a>
+      <a ui-sref="danny-benmoshe" class="col-xs-3">About Us</a>
+      <a ui-sref="reviews" class="col-xs-3">Reviews</a>
+      <a ui-sref="contact-us" class="col-xs-3">Contact Us</a>
+
+    </div><!-- end of breadCrumbs div -->
+
+  </div><!-- end of row div -->
+
+</div><!-- end of container div -->
+
+
+</body>
+</html>
