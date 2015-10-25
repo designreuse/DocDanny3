@@ -188,3 +188,20 @@ h4 button {
 header h5 {
   font-size: 23px;
 }
+
+.presentaion-image {
+  max-height: 800px;
+  max-width: 800px;
+}
+
+.slides {
+  margin-left: 120px;
+}
+
+#presentaion-ul {
+  list-style-type: none;
+}
+
+.presentation-link {
+  font-size: 25px;
+}
