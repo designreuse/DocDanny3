@@ -1,6 +1,9 @@
 body {
  background: ##7dc7f3;
- background-image: url("images/zenbg.png");z
+ background-image: url("images/zenbg.png");
+}
+
+.name-address, .appointment {
 }
 
 .wrapper-div {
@@ -130,6 +133,38 @@ th, td {
 
 .ZocDoc {
   height: 60px;
-  border: 1px solid black;
   padding: 2px;
+  border-radius: 5px;
+}
+
+.patient-review {
+  color: red;
+}
+
+h4 button {
+    margin-left: 10px;
+}
+
+.missionStatement h3 {
+  line-height: 40px;
+  font-size: 25px;
+ font-family: 'Lora', serif;
+}
+
+.missionStatement h1 {
+ font-family: 'Lora', serif;
+}
+
+#heading-button {
+  height: 40px;
+  margin-left: 5px;
+}
+
+#heading-image {
+  height: 30px;
+  padding-bottom: 5px;
+}
+
+header h5 {
+  font-size: 23px;
 }
