@@ -3,9 +3,6 @@ body {
  background-image: url("images/zenbg.png");
 }
 
-.name-address, .appointment {
-}
-
 .wrapper-div {
    border: 1px solid black;
    padding-bottom: 2%;
@@ -147,12 +144,25 @@ th, td {
   border-radius: 5px;
 }
 
+.address-contact {
+  font-family: 'Lora', serif;
+  padding-top: 10px;
+}
+
 .patient-review {
-  color: red;
+  color: #5CB85C;
+}
+
+.review-text {
+font-family: 'Architects Daughter', cursive;}
+
+.review-link {
+ 
+  font-size: 15px;
 }
 
 h4 button {
-    margin-left: 10px;
+    margin-left: 4px;
 }
 
 .missionStatement h3 {
