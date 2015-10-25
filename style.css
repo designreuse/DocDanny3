@@ -53,6 +53,16 @@ header {
 
 .dannyStory {
   margin: 2% 3%;
+  font-family: 'Lora', serif;
+}
+
+.dannyStory h4 {
+  line-height: 28px;
+  font-size: 23px;
+}
+
+.dannyStory h2 {
+  margin-bottom: 20px;
 }
 
 .DannyPic {
@@ -132,7 +142,7 @@ th, td {
 }
 
 .ZocDoc {
-  height: 60px;
+  height: 40px;
   padding: 2px;
   border-radius: 5px;
 }
