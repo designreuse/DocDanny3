@@ -128,7 +128,8 @@ th, td {
 }
 
 .flexslider {
-  padding: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .review-image {
@@ -195,7 +196,7 @@ header h5 {
 }
 
 .slides {
-  margin-left: 120px;
+  margin-left: 180px;
 }
 
 #presentaion-ul {
