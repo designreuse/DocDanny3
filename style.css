@@ -206,3 +206,9 @@ header h5 {
 .presentation-link {
   font-size: 25px;
 }
+
+#espanol {
+  margin-top: 5px;
+  font-size: 20px;
+  color: #d9534f;
+}
