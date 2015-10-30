@@ -221,3 +221,8 @@ header h5 {
 .phone {
   color: #337AB7;
 }
+
+.dropdown-menu {
+  background-color: #5bc0de;
+  font-size: 18px;
+}
