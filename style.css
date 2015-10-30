@@ -226,3 +226,12 @@ header h5 {
   background-color: #5bc0de;
   font-size: 18px;
 }
+
+.ebm-link, .promo {
+  color: white;
+  font-size: 14px;
+}
+
+.promo > a:hover {
+    color: #d9534f;
+}
