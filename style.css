@@ -236,3 +236,8 @@ header h5 {
 .promo > a:hover {
     color: #d9534f;
 }
+
+.carousel-inner img {
+  border-radius: 5px;
+}
+
